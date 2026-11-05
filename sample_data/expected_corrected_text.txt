@@ -1,0 +1,5 @@
+Welcome to the campus. I am a student.
+This is an example, with errors in spacing.
+The course is useful. Hello, world!
+Can you fix this? I think so.
+
