@@ -14,14 +14,14 @@ __pycache__/
 *$py.class
 *.so
 .Python
-build/
+/build/
 develop-eggs/
-dist/
+/dist/
 downloads/
 eggs/
 .eggs/
-lib/
-lib64/
+/lib/
+/lib64/
 parts/
 sdist/
 var/
@@ -31,6 +31,10 @@ wheels/
 *.egg
 .pytest_cache/
 */.pytest_cache/
+
+# Ensure frontend source libraries are tracked
+!frontend/src/lib/
+!frontend/src/lib/**
 
 # Next.js Build Outputs
 .next/
